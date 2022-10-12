@@ -1,0 +1,91 @@
+Q.1 what is an object-oriented programming language?
+Ans: Object-oriented programming (OOP) is a computer
+programming model that organizes software design
+around data, or objects, rather than functions and
+logic.
+Eg. C++,java etc
+
+Q.2 Difference between class and object?
+Ans: Class:: Classes are user-defined data types that
+act as the blueprint for individual objects, attributes
+and methods.
+*When classes create. it does not take
+memory.
+*Class is logical entity.
+*When class creates use class keyword.
+Object::Object is an instance of a class. All data
+members and member functions of the class can be
+accessed with the help of objects.
+*Object is instance of class and it take
+memory when class is instantiated (i.e. an object is
+created).
+*Object is physical entity.
+*Object is created by new keyword.
+
+Q.3 what is oops?
+Ans: 3. What are OOPS concepts?
+a. Inheritance
+Ans:Inheritance is an important pillar of
+OOP(Object-Oriented Programming). It is the mechanism
+in java by which one class is allowed to inherit the
+features(fields and methods) of another class.
+● Super Class: The class whose features are inherited is
+known as a superclass(or a base class or a parent class).
+● Sub Class: The class that inherits the other class is known
+as a subclass(or a derived class, extended class, or child
+class). The subclass can add its own fields and methods in
+addition to the superclass fields and methods.
+The keyword used for inheritance is extends.
+Syntax :
+class derived-class extends base-class
+{
+//methods and fields
+}
+b. Encapsulation
+Ans: Encapsulation is defined as the wrapping up of
+data under a single unit. It is the mechanism that binds
+together code and the data it manipulates. Another way
+to think about encapsulation is, that it is a protective
+shield that prevents the data from being accessed by
+the code outside this shield.
+As in encapsulation, the data in a class is hidden from
+other classes using the data hiding concept which is
+achieved by making the members or methods of a class
+private, and the class is exposed to the end-user or the
+world without providing any details behind
+implementation using the abstraction concept, so it is
+also known as a combination of data-hiding and
+abstraction.
+c. Polymorphism
+Ans: polymorphism allows you to define one interface
+and have multiple implementations. The word “poly”
+means many and “morphs” means forms, So it means
+many forms.
+Types of polymorphism
+In Java polymorphism is mainly divided into two types:
+● Compile-time Polymorphism (method overloading)
+● Runtime Polymorphism (method overriding)
+d. Abstraction
+Ans: Data Abstraction is the property by virtue of which
+only the essential details are displayed to the user. The
+trivial or the non-essential units are not displayed to
+the user.
+In java, abstraction is achieved by interfaces and
+abstract classes. We can achieve 100% abstraction using
+interfaces.
+e. Interface
+Ans:An Interface in Java programming language is
+defined as an abstract type used to specify the behavior
+of a class. An interface in Java is a blueprint of a class.
+A Java interface contains static constants and abstract
+methods.
+The interface in Java is a mechanism to achieve
+abstraction. There can be only abstract methods in the
+Java interface, not the method body. It is used to
+achieve abstraction and multiple inheritance in Java.
+Syntax:
+interface {
+// declare constant fields
+// declare methods that abstract
+// by default.
+}
